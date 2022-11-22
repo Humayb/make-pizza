@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  background-color: beige;
+}
+body h1 {
+  font-size: 40px;
+  margin-bottom: 2vh;
+}
+body h3 {
+  font-size: 32px;
+  margin-bottom: 2vh;
+}
+body main {
+  margin: 2vh;
+}
+body main h1 {
+  display: flex;
+  justify-content: center;
+}
+body main #pizza {
+  display: flex;
+  justify-content: center;
+}
+body main #pizza .piz {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+body main #pizza .piz img {
+  display: inline-block;
+  width: 300px;
+  position: absolute;
+  z-index: -1;
+}
+body main h3, body main h4 {
+  display: flex;
+  justify-content: center;
+  margin: 1vh 0;
+}
+body main h3 a, body main h4 a {
+  color: brown;
+  text-decoration: none;
+  margin-left: 5px;
+}
+body main h3 a:hover, body main h4 a:hover {
+  color: rgb(107, 4, 4);
+}
+body main #list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3vh 0;
+  justify-content: center;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+body main #list figure {
+  display: flex;
+  border: 1px solid brown;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #e7bea5;
+  padding: 0 8px;
+  width: 200px;
+  height: 100px;
+}
+body main #list figure figcaption {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+body main #list figure img {
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 80px;
+}/*# sourceMappingURL=master.css.map */

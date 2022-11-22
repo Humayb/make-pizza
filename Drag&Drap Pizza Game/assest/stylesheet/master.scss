@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: beige;
+
+    h1{
+        font-size: 40px;
+        margin-bottom: 2vh;
+    }
+    h3{
+        font-size: 32px;
+        margin-bottom: 2vh;
+    }
+
+    main{
+        margin: 2vh;
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        
+        #pizza{
+            display: flex;
+            justify-content: center;
+            .piz{
+                display: flex;
+                justify-content: center;
+                width: 300px;
+                height: 300px;
+                position: relative;
+
+                img{
+                    display: inline-block;
+                    width: 300px;
+                    position:absolute;
+                    z-index: -1;
+                }
+            }
+        }
+
+        h3,h4{
+            
+            display: flex;
+            justify-content: center; 
+            margin: 1vh 0; 
+            
+            a{
+                color: brown;
+                text-decoration: none;
+                margin-left: 5px;
+                &:hover{
+                    color: rgb(107, 4, 4);
+                }
+            }
+        }
+
+        #list{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 3vh 0;
+            justify-content: center;
+            cursor:grabbing;
+
+
+            figure{
+                display: flex;
+                border: 1px solid brown;
+                border-radius: 5px;
+                margin: 10px;
+                background-color: #e7bea5;
+                padding: 0 8px;
+                width: 200px;
+                height: 100px;
+
+
+                figcaption{
+                    display: flex;
+                    align-items: center;
+                    text-transform: capitalize;
+                    
+                }
+                img{
+                    width: 100px;
+                    display: inline-block;
+                    position: absolute;
+                    margin-left: 80px;
+                }
+            }
+        }
+    }
+}
