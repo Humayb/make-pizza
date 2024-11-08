@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assest/stylesheet/master.css">
+    <title>Make Pizza Game -humayb</title>
+</head>
+<body>
+    <main>
+        <h1>Make The Best Pizza Recipe</h1>
+
+        <div id="pizza">
+            <div class="piz" ondrop="drop(event)" ondragover="allowDrop(event)" >
+                <img src="assest/img/1.Bread-pizza.png" alt="">
+
+            </div>
+        </div>
+
+        <div>
+            <h3>Ingredients for Pizza</h3>
+            <h4>Developer: 
+                <a href="http://humayb.com/">Homa Bahramparvar</a>
+            </h4>
+            <div  id="list">
+                <figure>
+                    <figcaption >sausage</figcaption>
+                    <img id="drag1" draggable="true" ondragstart="drag(event)"  src="assest/img/2.sausage-pizza.png" alt="">
+                </figure>
+                <figure>
+                    <figcaption>onion</figcaption>
+                    <img id="drag2" draggable="true" ondragstart="drag(event)" src="assest/img/3.onion-pizza.png" alt="">
+                </figure>
+                <figure>
+                    <figcaption>tomato</figcaption>
+                    <img id="drag3" draggable="true" ondragstart="drag(event)"  src="assest/img/4.tomato-pizza.png" alt="">
+                </figure>
+                <figure>
+                    <figcaption>mushroom</figcaption>
+                    <img id="drag4" draggable="true" ondragstart="drag(event)" src="assest/img/5.mushroom-pizza.png" alt="">
+                </figure>
+                <figure>
+                    <figcaption>basil</figcaption>
+                    <img id="drag5" draggable="true" ondragstart="drag(event)" src="assest/img/6.basil-pizza.png" alt="">
+                </figure>
+                <figure>
+                    <figcaption>bell papper</figcaption>
+                    <img id="drag6" draggable="true" ondragstart="drag(event)" src="assest/img/7.Bell-Pepper-pizza.png" alt="">
+                </figure>
+                <figure>
+                    <figcaption>Olive</figcaption>
+                    <img id="drag7" draggable="true" ondragstart="drag(event)"  src="assest/img/8.olive-pizza.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </main>
+</body>
+ <script src="./index.js"></script>
+</html>
